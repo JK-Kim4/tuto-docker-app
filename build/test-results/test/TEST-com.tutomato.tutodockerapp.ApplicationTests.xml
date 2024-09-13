@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.tutomato.tutodockerapp.ApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-13T06:41:08" hostname="jongwan-airui-noteubug.local" time="0.318">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.tutomato.tutodockerapp.ApplicationTests" time="0.318"/>
+  <system-out><![CDATA[15:41:07.964 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.tutomato.tutodockerapp.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:41:07.995 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.tutomato.tutodockerapp.Application for test class com.tutomato.tutodockerapp.ApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.3)
+
+2024-09-13T15:41:08.103+09:00  INFO 28451 --- [tuto-docker-app] [    Test worker] c.t.tutodockerapp.ApplicationTests       : Starting ApplicationTests using Java 17.0.11 with PID 28451 (started by jongwan-air in /Users/jongwan-air/Desktop/workspaces/tuto-docker-app)
+2024-09-13T15:41:08.104+09:00  INFO 28451 --- [tuto-docker-app] [    Test worker] c.t.tutodockerapp.ApplicationTests       : No active profile set, falling back to 1 default profile: "default"
+2024-09-13T15:41:08.403+09:00  INFO 28451 --- [tuto-docker-app] [    Test worker] c.t.tutodockerapp.ApplicationTests       : Started ApplicationTests in 0.37 seconds (process running for 0.695)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
