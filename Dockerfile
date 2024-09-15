@@ -1,4 +1,4 @@
-FROM openjdk:17
+FROM openjdk:11-jdk-alpine
 
 CMD ["./gradlew", "clean", "build"]
 # or Maven
