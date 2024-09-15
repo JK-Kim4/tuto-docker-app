@@ -1,4 +1,4 @@
-FROM bellsoft/liberica-openjdk-alpine:11
+FROM bellsoft/liberica-openjdk-alpine:17
 
 CMD ["./gradlew", "clean", "build"]
 # or Maven
